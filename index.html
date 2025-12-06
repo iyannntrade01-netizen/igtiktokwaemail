@@ -1,4 +1,4 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -9,15 +9,15 @@
     body {
       margin: 0;
       padding: 0;
-      background:transparent;
+      background: transparent;
     }
 
     .social-floating {
       position: fixed;
       bottom: 20px;
-      right: 20px;
+      left: 20px; /* pindahkan ke kiri */
       display: flex;
-      flex-direction: row; /* berjejer ke kiri */
+      flex-direction: row; /* berjejer kiri→kanan */
       gap: 12px;
       z-index: 9999;
     }
@@ -41,7 +41,6 @@
 
 <body>
 
-  <!-- Floating Social Icons -->
   <div class="social-floating">
 
     <!-- WhatsApp -->
@@ -58,13 +57,11 @@
     <a href="https://www.tiktok.com/@iann_222" target="_blank">
       <img src="https://img.freepik.com/premium-vector/art-illustration_929495-38.jpg?semt=ais_hybrid&w=740&q=80">
     </a>
-    
-    <!-- dc -->
-    <a href=" https://discord.com/channels/@me" target="_blank">
+
+    <!-- Discord -->
+    <a href="https://discord.com/channels/@me" target="_blank">
       <img src="https://www.svgrepo.com/show/447163/discord-outline.svg">
     </a>
-
-   
 
   </div>
 
